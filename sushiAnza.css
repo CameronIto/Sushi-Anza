@@ -1,0 +1,191 @@
+body {
+  font-family: 'Jaldi', sans-serif;
+  background-size: cover;
+  background-position: center;
+}
+
+#aboutBG {
+  background: url("images/backgroundAbout.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#sushiMenuBG {
+  background: url("images/backgroundMenu0.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#dinnerBG {
+  background: url("images/backgroundMenu2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#lunchBG {
+  background: url("images/backgroundMenu3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#rollBG {
+  background: url("images/backgroundMenu4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#dinnerItems {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#dinnerItems h1, h2, h3 {
+  text-align: center;
+}
+
+#dinnerItems p {
+  font-size: 22px;
+}
+
+#sushiItems {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+#sushiItems h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+#sushiItems p {
+  font-size: 22px;
+}
+
+#lunchItems {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+
+#lunchItems p {
+  text-align: center;
+  font-size: 22px;
+}
+
+#rollItems {
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin-top: 100px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#rollItems p {
+  font-size: 22px;
+}
+
+.jumbotron {
+  margin-top: 80px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+html {
+  height: 100%;
+}
+
+#content {
+  text-align: center;
+  padding-top: 30%;
+  color: white;
+}
+
+hr {
+  width: 350px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.menuTitleHR {
+  width: 500px;
+  border-top: 2px solid#f8f8f8;
+  border-bottom: 2px solid rgba(0, 0, 0, .5);
+}
+
+.menuHR {
+  /*width: 100%;
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 5px 1px white;*/
+  border: 0;
+  width: 95%;
+  height: 2px;
+  background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 0.75), rgba(200, 200, 200, 0));
+}
+/* make navbar transparent */
+.navbar-default {
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu > li > a:hover {
+  background-color: black !important;
+}
+
+/*make text color of navbar to white */
+.nav.navbar-nav li a {
+  color: white !important;
+}
+
+.nav.navbar-nav li a:hover {
+  color: white !important;
+}
+
+.navbar-default .navbar-brand {
+  color: white !important;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white !important;
+}
+
+.dropdown-toggle:active, .dropdown-toggle {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: white;
+    border-color: black;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
